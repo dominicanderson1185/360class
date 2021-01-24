@@ -53,6 +53,7 @@ public class Main
                 theObj.next();
             }
             number1 = theObj.nextInt();
+            // number 2 number retreival
             System.out.println("Please enter second number. It must be a positive number.");
             while(!theObj.hasNextInt()){
                 System.out.println("Please enter a normal numerical number.");
